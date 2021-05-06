@@ -1,1 +1,1 @@
-## This repository is a samole to connect git-terraform-cicrleci using GCP
+## This repository is a sample to connect git-terraform-cicrleci using GCP
