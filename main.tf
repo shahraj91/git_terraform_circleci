@@ -16,11 +16,11 @@ provider "google"{
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "TerraformNetwork"
+    name = "terraform-network" 
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name = "TerraformIVMInstance"
+  name = "terraform-instance"
   machine_type = var.machine_types[var.environment]
   tags = ["web", "dev"]
 
