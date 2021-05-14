@@ -19,7 +19,7 @@ resource "google_compute_network" "vpc_network" {
     name = "terraform-network" 
 }
 
-resource "google_compute_instance" "vm_instance" {
+resource "google_compute_instance" "vm_instance1" {
   name = "terraform-instance"
   machine_type = var.machine_types[var.environment]
   tags = ["web", "dev"]
